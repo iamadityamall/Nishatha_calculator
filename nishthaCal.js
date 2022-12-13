@@ -1,3 +1,5 @@
+// functionalities
+
 function addChar(input, character) {
   if (input.value == null || input.value == "0") input.value = character;
   else input.value += character;
